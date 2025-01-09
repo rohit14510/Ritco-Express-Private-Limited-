@@ -86,7 +86,23 @@ font-size: 30px;
 }
 
 /* ------------End Hero Section------------- */
-/* ------------Start Shifting Services Section------------- */
+/* ------------Start  Services Section------------- */
+.service_card{
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#EEF2FF;
+}
 
-
-/* ------------End Shifting Services Section------------- */
+/* ------------End  Services Section------------- */
+.Service-area-list{
+  list-style: disc;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.Service-area-list li{
+  padding-right: 20px;
+}
+.Service-area-list li::marker {
+  color: #D6EAFF; /* Disc color */
+}
