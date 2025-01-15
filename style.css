@@ -1,4 +1,104 @@
-.hero_section{
+/* Base styles for header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.my_booking, .phone-number {
+  border: 1px solid green;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.menu-icon {
+  display: none; /* Hidden by default */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo img {
+    max-width: 80px; /* Adjust logo size on mobile */
+  }
+}
+
+
+/* ---------End Header--------- */
+/* ----------Hero Slider------------- */
+.Hero-image-container {
+  position: relative;
+}
+
+.Hero-image-container .overlay {
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+.Hero-image-container .content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Hero-image-container .content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.Hero-image-container .content button {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #FD6831;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+
+/* ----------Hero Slider------------- */
+/* .hero_section{
   height: 100vh;
 }
 
@@ -83,9 +183,28 @@ font-size: 30px;
     height: 90vh;
     object-fit: cover;
 }
-}
+} */
 
 /* ------------End Hero Section------------- */
+/* -----------------Form------------------- */
+.form-container {
+  margin: 50px auto;
+  top: 60px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.btn-orange {
+  background-color: #ff6600;
+  color: #fff;
+}
+.btn-orange:hover {
+  background-color: #e65c00;
+}
+
+/* -----------------Form------------------- */
 /* ------------Start  Services Section------------- */
 .service_card{
   padding: 20px;
@@ -105,4 +224,37 @@ font-size: 30px;
 }
 .Service-area-list li::marker {
   color: #D6EAFF; /* Disc color */
+}
+
+/* ----------------footer_list----------------- */
+.footer_list{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer_list{
+    display: block;
+    text-align: center;
+  }
+  .footer_list li{
+    margin-top: 5px;
+  }
+}
+.social-icons_footer a {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #2e3542;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+.socIcin_Footer {
+  color: #fff;
+  transition: 0.3s;
 }
