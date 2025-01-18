@@ -701,25 +701,26 @@
             <div class="col-lg-4   order-0 order-lg-1">
                 <div class="form-container sticky-top ">
                     <h5 class="text-center mb-4 fw-bold">Where are you going to relocate?</h5>
-                    <form>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="28dbf568-8595-485f-9afb-cdb2a8783b0c">
                         <div class="mb-2">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <input type="text" name="Name" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="mb-2">
-                            <input type="email" class="form-control" placeholder="Email Id" required>
+                            <input type="email" name="Email" class="form-control" placeholder="Email Id" required>
                         </div>
                         <div class="mb-2">
-                            <input type="tel" class="form-control" placeholder="Enter Mobile No." required>
+                            <input type="tel" name="Mobile No" class="form-control" placeholder="Enter Mobile No." required>
                         </div>
                         <div class="mb-2">
-                            <input type="text" class="form-control" placeholder="Move From" required>
+                            <input type="text" name="From" class="form-control" placeholder="Move From" required>
                         </div>
                         <div class="mb-2">
-                            <input type="text" class="form-control" placeholder="Move To" required>
+                            <input type="text" name="To" class="form-control" placeholder="Move To" required>
                         </div>
                         <div class="mb-2">
                             <label for="shifting-date" class="form-label fw-bold text-dark">Shifting Date</label>
-                            <input type="date" id="shifting-date" class="form-control" required>
+                            <input type="date" id="shifting-date" name="Date" class="form-control" required>
                         </div>
                         <div>
                             <button type="submit" class="btn btn-orange w-100 fw-bold">Check Price</button>
