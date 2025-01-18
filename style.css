@@ -35,9 +35,40 @@
   font-size: 24px;
   cursor: pointer;
 }
+/* General submenu styles */
+.menu-container .submenu {
+  display: none;
+  top: 100%; /* Position below the menu container */
+  left: -50px;
+  z-index: 10;
+  min-width: 150px;
+}
+
+/* Show the submenu on hover */
+.menu-container:hover .submenu {
+  display: block;
+}
+
+/* Styling for submenu links */
+.menu-container .submenu a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Remove border for the last item */
+.menu-container .submenu a:last-child {
+  border-bottom: none;
+}
+
+/* Add hover effect for submenu links */
+.menu-container .submenu a:hover {
+  background-color: #FD6831;
+  color: #fff;
+}
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-links {
     display: none;
     position: absolute;
@@ -62,9 +93,9 @@
   }
 
   .logo img {
-    max-width: 80px; /* Adjust logo size on mobile */
+    max-width: 80px;
   }
-}
+} */
 
 
 /* ---------End Header--------- */
@@ -95,8 +126,93 @@
   border: none;
   padding: 0.75rem 1.5rem;
 }
+@media (max-width: 768px) {
+.Hero-image-container img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.Hero-image-container .content h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Hero-image-container .content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+  
+}
 
 
+.service-we-offer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.how-it-works-iconContaier{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FE6600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-card {
+
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonial-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.testimonial-role {
+  font-size: 14px;
+  color: #777;
+}
+
+.stars {
+  color: #fbc02d;
+  margin-top: 5px;
+}
+
+.Why-omexa-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 10px;
+
+}
 /* ----------Hero Slider------------- */
 /* .hero_section{
   height: 100vh;
@@ -233,13 +349,19 @@ font-size: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.footer_list li a{
+  text-decoration: none;
+  color:#555 ;
+  font-weight: 600;
+}
 @media (max-width: 768px) {
   .footer_list{
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
   }
   .footer_list li{
-    margin-top: 5px;
+    margin: 5px;
   }
 }
 .social-icons_footer a {
@@ -257,4 +379,8 @@ font-size: 30px;
 .socIcin_Footer {
   color: #fff;
   transition: 0.3s;
+}
+.footer-icon{
+  font-size: 2.5rem;
+  color: #e65c00;
 }
