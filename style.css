@@ -194,10 +194,11 @@ body{
   margin-bottom: 1.5rem;
 }
 
-.Hero-image-container .content button {
+.Hero-image-container .content .ContactUs {
   font-size: 1rem;
   font-weight: 600;
   background-color: #FD6831;
+  color: white;
   border: none;
   padding: 0.75rem 1.5rem;
 }
