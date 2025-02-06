@@ -234,7 +234,7 @@ body{
 }
 @media (max-width: 768px) {
 .we-offer-card h6 {
-  font-size: 10px;
+  font-size: 11px;
 }
 .we-offer-card p {
   font-size: 8px;
@@ -262,12 +262,7 @@ body{
   align-items: center;
 }
 
-.how-it-works-content h6{
-font-size: 14px;
-}
-.how-it-works-content p{
-  font-size: 12px;
-}
+
 
 .testimonial-card {
 
@@ -310,8 +305,8 @@ font-size: 14px;
 }
 
 .Why-omexa-img img{
-  width: 150px;
-  height: 150px;
+  width:70px;
+  height:70px;
   border-radius: 50%;
   object-fit: cover; 
   margin-bottom: 10px;
