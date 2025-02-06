@@ -220,27 +220,55 @@ body{
 }
   
 }
-
+.we-offer-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.we-offer-card p{
+  background-color:rgba(230, 92, 0, 1);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+.we-offer-card h6 {
+  font-size: 10px;
+}
+.we-offer-card p {
+  font-size: 8px;
+}
+}
 
 .service-we-offer {
-  width: 100px;
-  height: 100px;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+ 
 }
 .how-it-works-iconContaier{
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #FE6600;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.how-it-works-content h6{
+font-size: 14px;
+}
+.how-it-works-content p{
+  font-size: 12px;
+}
+
 .testimonial-card {
 
   border-radius: 10px;
