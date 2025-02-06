@@ -261,6 +261,15 @@ body{
   justify-content: center;
   align-items: center;
 }
+.Incredible-Solutions-iconContaier{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FE6600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
