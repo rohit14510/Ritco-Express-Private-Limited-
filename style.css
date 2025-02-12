@@ -200,7 +200,7 @@ body{
   background-color: #FD6831;
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem;
+  padding: 0.4rem 1.5rem;
 }
 @media (max-width: 768px) {
 .Hero-image-container img{
