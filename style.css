@@ -202,6 +202,22 @@ body{
   border: none;
   padding: 0.4rem 1.5rem;
 }
+.citybtn{
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #FD6831;
+  color: white;
+  border: none;
+ 
+}
+.citybtn:hover{
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #FD6831;
+  color: white;
+  border: none;
+ 
+}
 @media (max-width: 768px) {
 .Hero-image-container img{
   width: 100%;
