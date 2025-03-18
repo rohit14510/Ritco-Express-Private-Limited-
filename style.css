@@ -241,26 +241,35 @@ body{
 }
 .we-offer-card{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  border: 1px solid #3e3e40a8;
-  background-color: #dde9f0;
-  padding: 10px;
-  margin: 20px 0px;
+  
 }
-.we-offer-card h6{
-  color: #000;
-  margin: 0px;
- 
+.we-offer-card p{
+  background-color:#3E3E40;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 @media (max-width: 768px) {
 .we-offer-card h6 {
-  font-size: 15px;
+  font-size: 11px;
 }
 .we-offer-card p {
   font-size: 8px;
 }
+}
+
+.service-we-offer {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+ 
 }
 .service-boxSection{
   border: 1px solid #f0f0f0;
