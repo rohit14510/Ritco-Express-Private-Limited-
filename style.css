@@ -28,7 +28,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F68B21;
+  background-color: #26aae1;
 }
 .quick_contact_icon {
  
@@ -67,7 +67,7 @@ body{
 }
 
  .phone-number {
-  border: 1px solid #fe6600;
+  border: 1px solid #26aae1;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -75,11 +75,11 @@ body{
 }
 .phone-number a{
   font-size: 18px;
-  color: #fe6600;
+  color: #26aae1;
 }
 .phone-number i{
   font-size: 18px;
-  color: #fe6600;
+  color: #26aae1;
 }
 .menu-container p i{
   font-size: 30px;
@@ -124,7 +124,7 @@ body{
 
 /* Add hover effect for submenu links */
 .menu-container .submenu a:hover {
-  background-color: #FD6831;
+  background-color: #26aae1;
   color: #fff !important;
 }
 @media (max-width: 768px) {
@@ -197,7 +197,7 @@ body{
 .Hero-image-container .content .ContactUs {
   font-size: 1rem;
   font-weight: 600;
-  background-color: #FD6831;
+  background-color: #26aae1;
   color: white;
   border: none;
   padding: 0.4rem 1.5rem;
@@ -205,7 +205,7 @@ body{
 .citybtn{
   font-size: 1rem;
   font-weight: 600;
-  background-color: #FD6831;
+  background-color: #26aae1;
   color: white;
   border: none;
  
@@ -213,7 +213,7 @@ body{
 .citybtn:hover{
   font-size: 1rem;
   font-weight: 600;
-  background-color: #FD6831;
+  background-color: #26aae1;
   color: white;
   border: none;
  
@@ -238,62 +238,171 @@ body{
 }
 .we-offer-card{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
 }
-.we-offer-card p{
-  background-color:rgba(230, 92, 0, 1);
-  padding: 5px 10px;
-  border-radius: 10px;
+.we-offer-card h6{
+  color: #000;
+ 
 }
 @media (max-width: 768px) {
 .we-offer-card h6 {
-  font-size: 11px;
+  font-size: 15px;
 }
 .we-offer-card p {
   font-size: 8px;
 }
 }
+.service-boxSection{
+  border: 1px solid #f0f0f0;
+}
+.service-box {
 
-.service-we-offer {
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 50%;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
- 
+  padding: 10px;
+  text-align: start;
+
+  transition: 0.3s;
 }
-.how-it-works-iconContaier{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #FE6600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.service-box svg {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
 }
+.service-box h5 {
+  font-weight: bold;
+}
+.service-box h5 {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.service-box h5::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 3px; /* अंडरलाइन की मोटाई */
+  background-color: #f7941c; /* अंडरलाइन का रंग */
+  bottom: -10px; /* टेक्स्ट से दूरी */
+  left: 0;
+}
+.feature-card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+  margin-top: 50px;
+}
+
+.feature-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #26aae1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -68px auto -12px;
+  position: relative;
+  z-index: 10;
+}
+
+.feature-icon i {
+  color: white;
+  font-size: 32px;
+}
+
+.how-it-works-content{
+  padding-left: 10px;
+}
+.how-it-works-content p{
+  margin-top: 10px;
+}
+.how-it-works-content h6 {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.how-it-works-content h6::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 3px; /* अंडरलाइन की मोटाई */
+  background-color: #f7941c; /* अंडरलाइन का रंग */
+  bottom: -5px; /* टेक्स्ट से दूरी */
+  left: 0;
+}
+
 .Incredible-Solutions-iconContaier{
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #FE6600;
+  background-color: #26aae1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* // */
+.service-card {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  overflow: hidden;
+  margin-top: 10px;
+}
 
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-icon {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin: 90px auto -12px;
+  transform: translate(-50%, -50%);
+  background: #26aae1;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+  border: 4px solid #fff;
+}
+.service-title{
+  margin-top: 30px;
+}
 
 .testimonial-card {
 
   border-radius: 10px;
   position: relative;
-  text-align: center;
+  text-align: start;
   margin: 20px auto;
 }
 
@@ -302,7 +411,7 @@ body{
 .testimonial-text {
   font-size: 16px;
   color: #555;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .testimonial-image {
@@ -326,7 +435,9 @@ body{
 
 .stars {
   color: #fbc02d;
-  margin-top: 5px;
+  padding:3px 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
 }
 
 .Why-omexa-img img{
@@ -441,12 +552,14 @@ font-size: 30px;
   padding: 10px;
 }
 .btn-orange {
-  background-color: #ff6600;
+  background-color: #26aae1;
   color: #fff;
   padding: 10px;
+  transition: .5s;
 }
 .btn-orange:hover {
   background-color: #e65c00;
+  color: white;
 }
 
 /* -----------------Form------------------- */
