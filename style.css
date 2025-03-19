@@ -1,5 +1,5 @@
 body{
-  background-color: #EEEEEE;
+  background-color: #EBEFF3;
 }
 
 /* -----------------Call And Whatsapp Button--------------------- */
@@ -67,7 +67,7 @@ body{
 }
 
  .phone-number {
-  border: 1px solid #378cbf;
+  border: 1px solid #df1119;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -75,11 +75,11 @@ body{
 }
 .phone-number a{
   font-size: 18px;
-  color: #378cbf;
+  color: #df1119;
 }
 .phone-number i{
   font-size: 18px;
-  color: #378cbf;
+  color: #df1119;
 }
 .menu-container p i{
   font-size: 30px;
@@ -101,7 +101,7 @@ body{
   left: -80px;
   z-index: 10;
   min-width: 250px;
-  border-top: 3px solid #378cbf ;
+  border-top: 3px solid #04223E ;
 }
 
 /* Show the submenu on hover */
@@ -124,7 +124,7 @@ body{
 
 /* Add hover effect for submenu links */
 .menu-container .submenu a:hover {
-  background-color: #378cbf;
+  background-color: #04223E;
   color: #fff !important;
 }
 @media (max-width: 768px) {
@@ -197,7 +197,7 @@ body{
 .Hero-image-container .content .ContactUs {
   font-size: 1rem;
   font-weight: 600;
-  background-color: #378cbf;
+  background-color: #df1119;
   color: white;
   border: none;
   padding: 0.4rem 1.5rem;
@@ -205,7 +205,7 @@ body{
 .citybtn{
   font-size: 1rem;
   font-weight: 600;
-  background-color: #378cbf;
+  background-color: #df1119;
   color: white;
   border: none;
  
@@ -213,7 +213,7 @@ body{
 .citybtn:hover{
   font-size: 1rem;
   font-weight: 600;
-  background-color: #378cbf;
+  background-color: #df1119;
   color: white;
   border: none;
  
@@ -234,109 +234,51 @@ body{
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
-  
+  /* =====Service We Offer start==== */
 }
-.service-section{
-  background-color: #378cbf;
+.main-topic{
+  color:#df1119 ;
 }
-.we-offer-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-.we-offer-card p{
-  background-color:#3E3E40;
-  padding: 5px 10px;
-  border-radius: 10px;
-}
-@media (max-width: 768px) {
-.we-offer-card h6 {
-  font-size: 11px;
-}
-.we-offer-card p {
-  font-size: 8px;
-}
-}
-
-.service-we-offer {
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 50%;
+.service-icon-container{
   background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
- 
-}
-.service-boxSection{
-  border: 1px solid #f0f0f0;
-}
-.service-box {
-
   padding: 10px;
-  text-align: start;
-
-  transition: 0.3s;
-}
-
-.service-box svg {
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: #fff;
-}
-.service-box h5 {
-  font-weight: bold;
-}
-.service-box h5 {
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-}
-
-.service-box h5::before {
-  content: "";
-  position: absolute;
-  width: 30%;
-  height: 3px; /* अंडरलाइन की मोटाई */
-  background-color: #f7941c; /* अंडरलाइन का रंग */
-  bottom: -10px; /* टेक्स्ट से दूरी */
-  left: 0;
-}
-.feature-card {
-  border: 1px solid #ddd;
-  background-color: #dde9f0;
-  padding: 30px;
-  text-align: center;
-  transition: 0.3s;
-  margin-top: 50px;
-}
-
-.feature-card:hover {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.feature-icon {
-  width: 80px;
-  height: 80px;
-  background-color:#378cbf ;
   border-radius: 50%;
-  border: 4px solid  #3e3e40a8;
+}
+.service-off-title{
+  font-size: 14px;
+}
+.service-off-para{
+  display: inline-block;
+  background-color: #df1119;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+/* =====Incredible Solutions start==== */
+.Incrible-solutuion{
+  background-color: #E5E7EA;
+  padding: 20px;
+}
+.Incrible-solutuion h4{
+  color: #04223E;
+}
+.Incrible-solutuion{
+  color: #304364;
+}
+.Incrible-solutuion-icon-container{
+  width: 4rem;
+  height: 4rem;
+  padding: 10px;
+  background-color: #df1119;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -68px auto -12px;
-  position: relative;
-  z-index: 10;
 }
 
-.feature-icon i {
-  color: white;
-  font-size: 32px;
-}
-
+/* =====How it works start==== */
 .how-it-works-content{
   padding-left: 10px;
 }
@@ -347,6 +289,7 @@ body{
   position: relative;
   display: inline-block;
   font-size: 20px;
+  color: #04223E;
 }
 
 .how-it-works-content h6::before {
@@ -354,20 +297,12 @@ body{
   position: absolute;
   width: 30%;
   height: 3px; /* अंडरलाइन की मोटाई */
-  background-color: #378cbf; /* अंडरलाइन का रंग */
+  background-color: #04223E; /* अंडरलाइन का रंग */
   bottom: -5px; /* टेक्स्ट से दूरी */
   left: 0;
 }
 
-.Incredible-Solutions-iconContaier{
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #26aae1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 /* // */
 .service-card {
@@ -413,48 +348,44 @@ body{
 .service-title{
   margin-top: 30px;
 }
-
-.testimonial-card {
-
-  border-radius: 10px;
-  position: relative;
-  text-align: start;
-  margin: 20px auto;
+.feature-card {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+  margin-top: 50px;
 }
 
-
-
-.testimonial-text {
-  font-size: 16px;
-  color: #555;
-  margin-top: 20px;
+.feature-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.testimonial-image {
-  width: 70px;
-  height: 70px;
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  background-color:#fff ;
   border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -68px auto -12px;
+  position: relative;
+  z-index: 10;
 }
 
-.testimonial-name {
-  font-weight: bold;
-  font-size: 18px;
-  margin-top: 10px;
+.feature-icon img {
+  width: 80px;
+  height: 80px;
+ border-radius: 50%;
 }
-
-.testimonial-role {
-  font-size: 14px;
-  color: #777;
-}
-
 .stars {
   color: #fbc02d;
-  padding:3px 10px;
-  border-radius: 20px;
-  border: 1px solid #ddd;
+ 
+
 }
+
+
+
 
 .Why-omexa-img img{
   width:150px;
@@ -558,7 +489,7 @@ font-size: 30px;
   margin: 50px auto;
   top: 80px;
   padding: 20px;
-  background-color: #fff;
+  background-color: #04223E;
   border-radius: 8px;
   z-index: 1;
 }
@@ -568,14 +499,16 @@ font-size: 30px;
   padding: 10px;
 }
 .btn-orange {
-  background-color:#378cbf;
+  background-color:#df1119;
   color: #fff;
   padding: 10px;
   transition: .5s;
 }
 .btn-orange:hover {
   background-color: #3E3E40;
-  color: white;
+  color: #df1119;
+  background-color:#fff;
+  border: 2px solid #df1119;
 }
 
 /* -----------------Form------------------- */
