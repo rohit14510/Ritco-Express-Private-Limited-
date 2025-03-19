@@ -28,7 +28,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #378cbf;
+  background-color: #df1119;
 }
 .quick_contact_icon {
  
@@ -330,23 +330,51 @@ body{
 
 .service-icon {
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 110px;
+  left: 20%;
   margin: 90px auto -12px;
   transform: translate(-50%, -50%);
-  background: #378cbf;
+  background: #df1119;
   color: #fff;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  font-size: 24px;
-  border: 4px solid #3e3e40a8;
+  font-size: 34px;
+  border: 4px solid #fff;
+
+}
+@media (max-width: 768px) {
+  .service-icon {
+    position: absolute;
+    top: 110px;
+    left: 20%;
+    margin: 90px auto -12px;
+    transform: translate(-50%, -50%);
+    background: #df1119;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    border: 4px solid #fff;
+  
+  }
+}
+.service-icon i{
+  color: #fff;
 }
 .service-title{
   margin-top: 30px;
+  text-align: start;
+  color: #04223E;
+  font-weight: 700;
+}
+.service-text{
+  text-align: start;
 }
 .feature-card {
   background-color: #fff;
