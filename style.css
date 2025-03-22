@@ -989,6 +989,8 @@ font-size: 30px;
   color: #fff;
   font-weight: 600;
   transition: 0.3s;
+  background-color: #df1119;
+  padding: 5px 10px;
 }
 .bookNow-btn:hover {
   color: #fff;
