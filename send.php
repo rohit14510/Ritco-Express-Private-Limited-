@@ -17,8 +17,8 @@ if(isset($_POST['submit'])) {
         $phone = $_POST['phone'];
         $movefrom = $_POST['movefrom'];
         $moveto = $_POST['moveto'];
-        $service = $_POST['service'];
-        $msg = $_POST['msg'];
+        $service = $_POST['shiftingdate'];
+        // $msg = $_POST['msg'];
         
 $mail = new PHPMailer;
 // SMTP configuration
@@ -30,11 +30,11 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@mehrapackersandmovers.com', 'Om Cargo International  Packers And Movers '); 
-$mail->addReplyTo('info@mehrapackersandmovers.com', 'Test Email'); 
+$mail->setFrom('info@ritcoexpress.com', ' Ritco Express Private Limited '); 
+$mail->addReplyTo('info@ritcoexpress.com', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('mehrapackersmovers@gmail.com'); 
+$mail->addAddress('rohitpancholi14510@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
@@ -54,10 +54,10 @@ $mailContent = '
     <p>Email :'.$email.'</p> 
     <p>Movefrom :'.$movefrom.'</p> 
     <p>Moveto :'.$moveto.'</p> 
-    <p>Service :'.$service.'</p>
+    <p>ShiftingDate :'.$service.'</p>
     <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
-    <p>Om Cargo International  Packers And Movers </p>';  
+    <p> Ritco Express Private Limited  </p>';  
 // $mailContent = "Name : ".$name."\n"."Subject : ".$subject."\n"."Email : ".$email."\n"."Mbile : ".$mobile."\n"."Message :".$message; 
 $mail->Body = $mailContent; 
 $mail->headers  = "From: Sender Name <standupstartups1@gmail.com>" . "\r\n";
@@ -68,7 +68,7 @@ $mail->headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 if(!$mail->send()){ ?>
     <script>
     alert("Message could not be sent");
-    window.location.href="https://mehrapackersandmovers.com/thank-you.html";
+    window.location.href="https://ritcoexpress.com/thank-you.html";
     </script>
     // 
     <?php
@@ -80,7 +80,7 @@ if(!$mail->send()){ ?>
              
             //   if( $_GET['status'] == 'success') {
             //      alert("Mail Send Successfully");
-                 window.location.href="https://mehrapackersandmovers.com/thank-you.html";
+                 window.location.href="https://ritcoexpress.com/thank-you.html";
             //   }
             //   else{
             //       echo 'alert("no good");';

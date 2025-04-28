@@ -407,11 +407,12 @@ body{
 .service-title{
   margin-top: 30px;
   text-align: start;
-  color: #04223E;
+  color: #fff;
   font-weight: 700;
 }
 .service-text{
   text-align: start;
+  color: #fff;
 }
 .feature-card {
   background-color: #fff;
